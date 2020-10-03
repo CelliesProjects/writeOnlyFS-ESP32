@@ -76,6 +76,8 @@ Upgrades to `writeOnlyFS-ESP32` will always be compatible with previously writte
 `writeOnlyFS-ESP32` storage is always-on and requires no special preparations!
 - #### Extendable.
 Multiple `writeOnlyFS-ESP32` storage instances can co-exist on a system if infinite capacity is not enough for you!
+<br>Depending on system resources, up to infinite instances of `writeOnlyFS-ESP32` on a single system should be possible.
+<br>But 640 times infinity should be enough for everybody!
 - #### Lowest price per GB of storage in the industry.
 Since `writeOnlyFS-ESP32` is free (as in beer) no hardware based data storage system can beat this metric!
 
