@@ -15,7 +15,7 @@ Exactly this common and widespread scenario is what the engineers at CelliesProj
 
 `writeOnlyFS-ESP32` was designed specifically so the tedious proces of storing boring data could be done more efficient and faster.
 
-`writeOnlyFS-ESP32` uses a WOM (Write-Only-Memory) implementation in software which is a real breakthrough technology now also available for IoT devices. By making some minor concessions on the saved data retention, previously unheard of transfer speed and storage capacity were made possible.
+`writeOnlyFS-ESP32` uses a software based WOM (Write-Only-Memory) implementation which is a real breakthrough technology now also available for IoT devices. By making some minor concessions on the saved data retention, previously unheard of transfer speed and storage capacity were made possible.
 
 But useless data storage could be simplified even further by eliminating the bottleneck that is the tradiditional file and their structure. `writeOnlyFS-ESP32` gets rid of file handles, filenames and all their overhead and limitations.
 
