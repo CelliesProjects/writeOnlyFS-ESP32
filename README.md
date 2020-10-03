@@ -13,9 +13,9 @@ Sounds too good to be true?
 Research has shown that most data saved is rather unimportant and boring and will probably never be read again.
 Exactly this common and widespread scenario is what the engineers at CelliesProjects had in mind when they started developing `writeOnlyFS-ESP32` 
 
-`writeOnlyFS-ESP32` was designed specifically so this tedious proces could be done more efficient and faster.
+`writeOnlyFS-ESP32` was designed specifically so the tedious proces of storing boring data could be done more efficient and faster.
 
-`writeOnlyFS-ESP32` uses a WOM (Write-Only-Memory) implementation in software which is a real breakthrough technology now also available for IoT devices. By making some minor concessions on the saved data retention, previously unheard of transfer speed and storage capacity were made possible.
+`writeOnlyFS-ESP32` uses a software based WOM (Write-Only-Memory) implementation which is a real breakthrough technology now also available for IoT devices. By making some minor concessions on the saved data retention, previously unheard of transfer speed and storage capacity were made possible.
 
 But useless data storage could be simplified even further by eliminating the bottleneck that is the tradiditional file and their structure. `writeOnlyFS-ESP32` gets rid of file handles, filenames and all their overhead and limitations.
 
@@ -76,9 +76,34 @@ Upgrades to `writeOnlyFS-ESP32` will always be compatible with previously writte
 `writeOnlyFS-ESP32` storage is always-on and requires no special preparations!
 - #### Extendable.
 Multiple `writeOnlyFS-ESP32` storage instances can co-exist on a system if infinite capacity is not enough for you!
+<br>Depending on system resources, up to infinite instances of `writeOnlyFS-ESP32` on a single system should be possible.
+<br>But 640 times infinity should be enough for everybody!
 - #### Lowest price per GB of storage in the industry.
 Since `writeOnlyFS-ESP32` is free (as in beer) no hardware based data storage system can beat this metric!
 
 ### Contra's:
 
 - Data can not be retrieved.
+```
+MIT License
+
+Copyright (c) 2020 Cellie
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
