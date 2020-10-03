@@ -11,13 +11,15 @@ Does your storage medium seem to fill up faster with irrelevant data than before
 Sounds too good to be true?
 
 Research has shown that most data saved is rather unimportant and boring and will probably never be read again.
-Exactly this common and widespread scenario is what the engineers at CelliesProjects had in mind when they started developing `writeOnlyFS-ESP32` so this tedious proces could be done more efficient.
+Exactly this common and widespread scenario is what the engineers at CelliesProjects had in mind when they started developing `writeOnlyFS-ESP32` 
+
+`writeOnlyFS-ESP32` was designed specifically so this tedious proces could be done more efficient and faster.
 
 `writeOnlyFS-ESP32` uses a WOM (Write-Only-Memory) implementation in software which is a real breakthrough technology now also available for IoT devices. By making some minor concessions on the saved data retention, previously unheard of transfer speed and storage capacity were made possible.
 
 But useless data storage could be simplified even further by eliminating the bottleneck that is the tradiditional file and their structure. `writeOnlyFS-ESP32` gets rid of file handles, filenames and all their overhead and limitations.
 
-Data is stored raw on `writeOnlyFS-ESP32`. No need to open or close files, just dump your irrelevant data in `writeOnlyFS-ESP32` and you're done! This approach also greatly simplifies coding effort needed, which is another win.
+Data is stored raw on `writeOnlyFS-ESP32`. No need to open or close files, just dump your irrelevant data in `writeOnlyFS-ESP32` and it's gone! This approach also greatly simplifies coding effort needed, which is another win.
 
 `writeOnlyFS-ESP32` was written for speed, capacity and ease of use in all possible scenarios.
 
@@ -30,12 +32,13 @@ Data is stored raw on `writeOnlyFS-ESP32`. No need to open or close files, just 
 ### Example code:
 
 ```c++
-#include <writeOnlyFS-ESP32.h>
+#include <writeOnlyESP32.h>
 
 writeOnlyFS wofs;
 
 void setup() {
-  float freeBytes = wofs.free();
+  double freeBytes = wofs.free();
+  ESP_LOGI(Tag, "Bytes free on writeOnlyFS: %f", freeBytes);
 }
 
 void loop() {
