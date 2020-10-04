@@ -4,7 +4,7 @@ Are you tired from waiting for unimportant data to be written to some storage me
 
 Do you want to save money on storage hardware upgrades for useless data?
 
-Does your storage medium seem to fill up faster with irrelevant every time you upgrade your hardware?
+Does your storage medium seem to fill up faster with irrelevant data every time you upgrade your hardware?
 
 ## Wait no more! Pay no more! Never run out of storage!
 
