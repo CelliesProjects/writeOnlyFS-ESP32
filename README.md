@@ -84,6 +84,15 @@ Since `writeOnlyFS-ESP32` is free (as in beer) no hardware based data storage sy
 ### Contra's:
 
 - Data can not be retrieved.
+
+
+#### This program is beerware.
+
+Although I like to code, my afk time is equally important.
+If you like the project, you could buy me a beer for some moral support.
+
+[![paypal](https://www.paypalobjects.com/en_US/NL/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MSP53ANQ3VV6J)
+
 ```
 MIT License
 
